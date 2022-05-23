@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/107953a3bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Music_Player</title>
+  </head>
+  <body>
+    <section id="player">
+      <div class="container">
+        <div class="warper">
+          <div class="card">
+            <div class="music_list">
+              <div class="warper">
+                <div class="items">
+                  <div class="item">
+                    <div class="music_name">
+                      <span class="text">marfhsf_song.mp3</span>
+                      <span class="duretion">3:50</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="music_name">
+                      <span class="text">myy_song.mp3</span>
+                      <span class="duretion">3:50</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="music_name">
+                      <span class="text">myy_song.mp3</span>
+                      <span class="duretion">3:50</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="music_name">
+                      <span class="text">myy_song.mp3</span>
+                      <span class="duretion">3:50</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="music_name">
+                      <span class="text">myy_song.mp3</span>
+                      <span class="duretion">3:50</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="music_name">
+                      <span class="text">myy_song.mp3</span>
+                      <span class="duretion">3:50</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="music_name">
+                      <span class="text">myy_song.mp3</span>
+                      <span class="duretion">3:50</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="music_name">
+                      <span class="text">myy_song.mp3</span>
+                      <span class="duretion">3:50</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sound">
+              <div class="icon">
+                <i class="fa-solid fa-volume-high"></i>
+              </div>
+              <input
+                id="volume"
+                type="range"
+                min="0"
+                max="100"
+                value="50"
+                step="1"
+              />
+            </div>
+            <div class="header">
+              <div class="logo">Music</div>
+              <div class="nav">
+                <div class="nav_toggle"></div>
+                <div class="nav_toggle"></div>
+                <div class="nav_toggle"></div>
+              </div>
+            </div>
+            <div class="song_img">
+              <div class="img_warper">
+                <img
+                  src="./img/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg"
+                  alt="image"
+                />
+              </div>
+            </div>
+            <div class="song_name">
+              <div class="warper">
+                <div class="title">
+                  <marquee behavior="linear" direction="left"
+                    ><span>my_song.mp3</span></marquee
+                  >
+                </div>
+                <div class="singer_name">Tahsan</div>
+              </div>
+            </div>
+            <div class="progress_ber">
+              <div class="warper">
+                <div class="duretion">
+                  <div class="start"></div>
+                  <div class="end"></div>
+                </div>
+                <div class="progress">
+                  <input type="range" min="0" />
+                  <div class="progressBer">
+                    <div class="style"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="player_bns">
+              <div class="total">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+              </div>
+              <div class="prv"><i class="fa-solid fa-caret-left"></i></div>
+              <div class="play">
+                <audio class="audio" src="./songs/protibadi-tahsan.mp3"></audio>
+                <div class="icons"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="next"><i class="fa-solid fa-caret-right"></i></div>
+              <div class="crows">
+                <i class="fa-solid fa-arrows-turn-to-dots"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
